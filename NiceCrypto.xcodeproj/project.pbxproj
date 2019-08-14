@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7962CC322DE646E003B109D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7962CC222DE646E003B109D /* AppDelegate.swift */; };
+		D7962CC522DE646E003B109D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7962CC422DE646E003B109D /* SceneDelegate.swift */; };
+		D7962CC722DE646E003B109D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7962CC622DE646E003B109D /* ContentView.swift */; };
+		D7962CC922DE6471003B109D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7962CC822DE6471003B109D /* Assets.xcassets */; };
+		D7962CCC22DE6471003B109D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7962CCB22DE6471003B109D /* Preview Assets.xcassets */; };
+		D7962CCF22DE6471003B109D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7962CCD22DE6471003B109D /* LaunchScreen.storyboard */; };
+		D7E898DB22DE78D7000AD2C5 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E898DA22DE78D7000AD2C5 /* LineChart.swift */; };
+		D7E898DD22DE78F7000AD2C5 /* LineChartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E898DC22DE78F7000AD2C5 /* LineChartController.swift */; };
+		D7E898DF22DE8071000AD2C5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E898DE22DE8071000AD2C5 /* LoginView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D7962CBF22DE646E003B109D /* NiceCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiceCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7962CC222DE646E003B109D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7962CC422DE646E003B109D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D7962CC622DE646E003B109D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D7962CC822DE6471003B109D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7962CCB22DE6471003B109D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D7962CCE22DE6471003B109D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7962CD022DE6471003B109D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E898DA22DE78D7000AD2C5 /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		D7E898DC22DE78F7000AD2C5 /* LineChartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartController.swift; sourceTree = "<group>"; };
+		D7E898DE22DE8071000AD2C5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7962CBC22DE646E003B109D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7962CB622DE646E003B109D = {
+			isa = PBXGroup;
+			children = (
+				D7962CC122DE646E003B109D /* NiceCrypto */,
+				D7962CC022DE646E003B109D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7962CC022DE646E003B109D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7962CBF22DE646E003B109D /* NiceCrypto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7962CC122DE646E003B109D /* NiceCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				D7962CC222DE646E003B109D /* AppDelegate.swift */,
+				D7962CC422DE646E003B109D /* SceneDelegate.swift */,
+				D7962CC622DE646E003B109D /* ContentView.swift */,
+				D7962CC822DE6471003B109D /* Assets.xcassets */,
+				D7962CCD22DE6471003B109D /* LaunchScreen.storyboard */,
+				D7962CD022DE6471003B109D /* Info.plist */,
+				D7962CCA22DE6471003B109D /* Preview Content */,
+				D7E898DA22DE78D7000AD2C5 /* LineChart.swift */,
+				D7E898DC22DE78F7000AD2C5 /* LineChartController.swift */,
+				D7E898DE22DE8071000AD2C5 /* LoginView.swift */,
+			);
+			path = NiceCrypto;
+			sourceTree = "<group>";
+		};
+		D7962CCA22DE6471003B109D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D7962CCB22DE6471003B109D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7962CBE22DE646E003B109D /* NiceCrypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7962CD322DE6471003B109D /* Build configuration list for PBXNativeTarget "NiceCrypto" */;
+			buildPhases = (
+				D7962CBB22DE646E003B109D /* Sources */,
+				D7962CBC22DE646E003B109D /* Frameworks */,
+				D7962CBD22DE646E003B109D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NiceCrypto;
+			productName = NiceCrypto;
+			productReference = D7962CBF22DE646E003B109D /* NiceCrypto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7962CB722DE646E003B109D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Mehul Mohan";
+				TargetAttributes = {
+					D7962CBE22DE646E003B109D = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = D7962CBA22DE646E003B109D /* Build configuration list for PBXProject "NiceCrypto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7962CB622DE646E003B109D;
+			productRefGroup = D7962CC022DE646E003B109D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7962CBE22DE646E003B109D /* NiceCrypto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7962CBD22DE646E003B109D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7962CCF22DE6471003B109D /* LaunchScreen.storyboard in Resources */,
+				D7962CCC22DE6471003B109D /* Preview Assets.xcassets in Resources */,
+				D7962CC922DE6471003B109D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7962CBB22DE646E003B109D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E898DF22DE8071000AD2C5 /* LoginView.swift in Sources */,
+				D7E898DB22DE78D7000AD2C5 /* LineChart.swift in Sources */,
+				D7962CC322DE646E003B109D /* AppDelegate.swift in Sources */,
+				D7962CC522DE646E003B109D /* SceneDelegate.swift in Sources */,
+				D7962CC722DE646E003B109D /* ContentView.swift in Sources */,
+				D7E898DD22DE78F7000AD2C5 /* LineChartController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7962CCD22DE6471003B109D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7962CCE22DE6471003B109D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7962CD122DE6471003B109D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7962CD222DE6471003B109D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7962CD422DE6471003B109D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "NiceCrypto/Preview\\ Content";
+				DEVELOPMENT_TEAM = 377VB5EV95;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NiceCrypto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codedamn.NiceCrypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7962CD522DE6471003B109D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "NiceCrypto/Preview\\ Content";
+				DEVELOPMENT_TEAM = 377VB5EV95;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NiceCrypto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codedamn.NiceCrypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7962CBA22DE646E003B109D /* Build configuration list for PBXProject "NiceCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7962CD122DE6471003B109D /* Debug */,
+				D7962CD222DE6471003B109D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7962CD322DE6471003B109D /* Build configuration list for PBXNativeTarget "NiceCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7962CD422DE6471003B109D /* Debug */,
+				D7962CD522DE6471003B109D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7962CB722DE646E003B109D /* Project object */;
+}
